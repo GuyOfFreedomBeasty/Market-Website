@@ -8,30 +8,32 @@
 </head>
 <body>
     <header>
-        <section class="container">
+        <div class="container">
             <nav>
                 <ul class="left-container" >
                     <li><a href="#" class="user">Hi <span>User!</span></a></li>
                     <li>Daily Deals</li>
                     <li>Help & Contact</li>
                 </ul>
-    
+
                 <ul class="right-container" >
                     <li class="ship-to"><img src="images/flags/ge-flag.ico" class="shipping-flag" alt=""><p>Ship to</p></li>
                     <li>Sell</li>
                     <li><i class="fa-solid fa-cart-shopping"></i></li>
                 </ul>
             </nav>
-        </section>
-        <hr>
-        
+        </div>
+    <hr>
 
-        <section class="container">
     <section id="main-header">
-                <img src="images/logo.png" alt="logo - My market 2" class="logo">
-
-                <form action="search" id="search-form">
-                    <input type="text" placeholder="Search...">
+        <div class="container">
+            <img src="images/logo.png" alt="logo - My market 2" class="logo">
+    
+            <form action="search" id="search-form">
+    
+                <section class="search-section">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search for anything">
 
                     <select name="category-selector" id="category-selector">
                         <option value="All">All Categories</option>
@@ -39,12 +41,13 @@
                         <option value="Baby">Baby</option>
                         <option value="Travel">Travel</option>
                     </select>
+                </section>
 
-                    <button class="search-confirm">search</button>
-                </form>
-            </section>
-        </section>
-        <hr>
+                 <button class="search-confirm">Search</button>
+            </form>
+        </div>
+    </section>
+    <hr>
 
     </header>
 </body>
