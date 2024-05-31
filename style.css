@@ -10,8 +10,14 @@ body{
 }
 
 .container{
-    padding: 0 18%;
+    padding: 0 16%;
 }
+
+hr{
+    opacity: .3;
+}
+
+/* Navigation */
 
 nav{
     width: 100%;
@@ -53,3 +59,19 @@ nav .right-container .shipping-flag{
 
     height: 120%;
 }   
+
+.ship-to p{
+    margin-left: 10px;
+    display: inline;
+}
+
+.ship-to .shipping-flag{
+    display: inline-block;
+
+    vertical-align: middle;
+    height: 120%;
+}   
+
+nav .right-container .fa-cart-shopping{
+    font-size: 20px;
+}
